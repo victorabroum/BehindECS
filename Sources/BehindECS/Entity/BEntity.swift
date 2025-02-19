@@ -8,6 +8,6 @@
 
 public typealias EntityID = UInt16
 
-public struct BEntity {
-    let id: EntityID
+public struct BEntity: Equatable {
+    public let id: EntityID
 }
