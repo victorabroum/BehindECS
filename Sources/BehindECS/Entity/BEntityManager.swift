@@ -5,7 +5,7 @@
 //  Created by Victor Vasconcelos on 19/02/25.
 //
 
-public class BEntityManager {
+open class BEntityManager {
     private var nextID: EntityID = 0
     private var componentManager: BComponentManager
 
@@ -15,7 +15,7 @@ public class BEntityManager {
         componentManager = BComponentManager()
     }
     
-    public func createEntity() -> BEntity {
+    open func createEntity() -> BEntity {
         let newEntity = BEntity(id: nextID)
         allEntities.insert(nextID)
         nextID += 1

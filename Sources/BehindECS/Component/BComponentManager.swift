@@ -6,7 +6,7 @@
 //
 
 
-public class BComponentManager {
+open class BComponentManager {
     
     private var componentsByType: [ObjectIdentifier: [EntityID: BComponent]] = [:]
     

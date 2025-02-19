@@ -8,8 +8,8 @@
 
 import MetalKit
 
-public class BBaseSystem: BSystem {
-    public func render(commandEncoder: any MTLRenderCommandEncoder, deltaTime: Float) {
+open class BBaseSystem: BSystem {
+    open func render(commandEncoder: any MTLRenderCommandEncoder, deltaTime: Float) {
     
     }
 }
