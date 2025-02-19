@@ -11,7 +11,7 @@ open class BEntityManager {
 
     public var allEntities = Set<EntityID>()
     
-    init() {
+    public init() {
         componentManager = BComponentManager()
     }
     
